@@ -3,7 +3,15 @@ Section: main
 Priority: optional
 Maintainer: ferrreo <harderthanfire@gmail.com>
 Standards-Version: 4.6.1
-Build-Depends: debhelper-compat (= 13)
+Build-Depends: debhelper-compat (= 13),
+               meson,
+               ninja-build,
+               libpam-dev,
+               wayland-protocols,
+               libwayland-dev,
+               libxkbcommon-dev,
+               libgdk-pixbuf2.0-dev,
+               libcairo-dev,
 Rules-Requires-Root: no
 
 Package: swaylock-effects
