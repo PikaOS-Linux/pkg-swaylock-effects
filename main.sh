@@ -12,6 +12,7 @@ apt install pika-sources.deb --yes --option Acquire::Retries=5 --option Acquire:
 git clone --recurse-submodules https://github.com/mortie/swaylock-effects
 cd swaylock-effects
 git checkout v1.6-4
+sed -i -e '1299d' ./main.c
 cp -rvf ../debian ./
 
 
