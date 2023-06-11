@@ -12,6 +12,8 @@ Build-Depends: debhelper-compat (= 13),
                libxkbcommon-dev,
                libgdk-pixbuf2.0-dev,
                libcairo-dev,
+               cmake,
+               cmake-extras,
 Rules-Requires-Root: no
 
 Package: swaylock-effects
